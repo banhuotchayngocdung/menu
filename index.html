@@ -1,88 +1,135 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bánh Ướt Chay Ngọc Dung</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bánh Ướt Chay Ngọc Dung</title>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial;
-      background: #f5f5f5;
-      text-align: center;
-    }
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f5f5f5;
+}
 
-    .container {
-      max-width: 500px;
-      margin: auto;
-      background: white;
-    }
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+}
 
-    img {
-      width: 100%;
-      height: auto;
-    }
+/* HEADER */
+.header {
+  background: #0f5132;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
 
-    .cta {
-      padding: 15px;
-      background: #fff;
-      position: sticky;
-      bottom: 0;
-      box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
-    }
+/* TAGLINE */
+.tagline {
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  color: #555;
+}
 
-    .btn {
-      display: block;
-      margin: 10px 0;
-      padding: 14px;
-      font-size: 16px;
-      border-radius: 10px;
-      text-decoration: none;
-      color: white;
-      font-weight: bold;
-    }
+/* IMAGE */
+img {
+  width: 100%;
+}
 
-    .grab { background: #00b14f; }
-    .shopee { background: #ee4d2d; }
-    .call { background: #333; }
+/* BEST SELLER */
+.highlight {
+  background: #fff3cd;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #856404;
+}
 
-    .title {
-      padding: 10px;
-      font-size: 18px;
-      font-weight: bold;
-    }
-  </style>
+/* CTA BOX */
+.cta {
+  position: sticky;
+  bottom: 0;
+  background: white;
+  padding: 12px;
+  box-shadow: 0 -3px 10px rgba(0,0,0,0.1);
+}
+
+/* BUTTON */
+.btn {
+  display: block;
+  margin: 8px 0;
+  padding: 14px;
+  border-radius: 12px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.grab { background: #00b14f; }
+.shopee { background: #ee4d2d; }
+.zalo { background: #0068ff; }
+.call { background: #333; }
+
+/* URGENCY */
+.urgent {
+  text-align: center;
+  font-size: 13px;
+  color: red;
+  margin-top: 5px;
+}
+</style>
 </head>
 
 <body>
 
 <div class="container">
 
-  <div class="title">
-    🌿 BÁNH ƯỚT CHAY NGỌC DUNG  
-    <br>Ăn chay 1 bữa – nhẹ lòng cả ngày
+  <div class="header">
+    🌿 BÁNH ƯỚT CHAY NGỌC DUNG
   </div>
 
-  <!-- ẢNH MENU -->
+  <div class="tagline">
+    Ăn chay 1 bữa – nhẹ lòng cả ngày
+  </div>
+
+  <div class="highlight">
+    ⭐ BÁNH ƯỚT CHAY – MÓN BÁN CHẠY NHẤT
+  </div>
+
+  <!-- MENU -->
   <img src="menu.jpg">
 
 </div>
 
-<!-- NÚT CHỐT ĐƠN -->
+<!-- CTA -->
 <div class="cta">
 
   <a class="btn grab" href="https://r.grab.com/g/6-20240612_082328_08cbb672c6b9184b_MEXMPS-5-C321UCADV2TJRE" target="_blank">
-    🚀 Đặt GrabFood
+    🚀 Đặt GrabFood (Nhanh nhất)
   </a>
 
   <a class="btn shopee" href="https://shopeefood.shopee.vn/u/jS4Dz4S" target="_blank">
-    🛵 Đặt ShopeeFood
+    🛵 Đặt ShopeeFood (Ưu đãi)
   </a>
 
-  <a class="btn call" href="tel:0975456247">
-    📞 Gọi đặt nhanh
+  <a class="btn zalo" href="https://zalo.me/0937033422">
+    💬 Chat Zalo đặt món
   </a>
+
+  <a class="btn call" href="tel:0937033422">
+    📞 Gọi đặt ngay
+  </a>
+
+  <div class="urgent">
+    ⚡ Giờ cao điểm có thể hết sớm – đặt ngay!
+  </div>
 
 </div>
 
