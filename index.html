@@ -5,10 +5,8 @@
   <script>
 function trackClick(name) {
   if (typeof gtag === "function") {
-    gtag("event", "click", {
-      event_category: "button",
-      event_label: name
-    });
+    gtag("event", name);
+    }
   }
 }
 </script>
