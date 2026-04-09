@@ -2,6 +2,16 @@
 <html lang="vi">
 <head>
   <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-MHB1NSDY41"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-MHB1NSDY41'); </script>
+  <script>
+function trackClick(name) {
+  if (typeof gtag === "function") {
+    gtag("event", "click", {
+      event_category: "button",
+      event_label: name
+    });
+  }
+}
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bánh Ướt Chay Ngọc Dung</title>
@@ -105,27 +115,33 @@ img {
 
 <div class="cta">
 
-  <a class="btn grab" href="https://r.grab.com/g/6-20240612_082328_08cbb672c6b9184b_MEXMPS-5-C321UCADV2TJRE" target="_blank">
+  <a class="btn grab" href="https://r.grab.com/g/6-20240612_082328_08cbb672c6b9184b_MEXMPS-5-C321UCADV2TJRE" target="_blank"
+    onclick="trackClick('grab')">
     🚀 Đặt GrabFood (Nhanh nhất)
   </a>
 
-  <a class="btn shopee" href="https://shopeefood.shopee.vn/u/jS4Dz4S" target="_blank">
+  <a class="btn shopee" href="https://shopeefood.shopee.vn/u/jS4Dz4S" target="_blank"
+    onclick="trackClick('shopee')">
     🛵 Đặt ShopeeFood (Ưu đãi)
   </a>
 
-  <a class="btn be" href="https://begroup.onelink.me/n83F/v1sdumrs" target="_blank">
+  <a class="btn be" href="https://begroup.onelink.me/n83F/v1sdumrs" target="_blank"
+    onclick="trackClick('be')">
     🟡 Đặt BeFood
   </a>
 
-  <a class="btn xanh" href="https://xanhsmngon.onelink.me/14WJ/3coxhube" target="_blank">
+  <a class="btn xanh" href="https://xanhsmngon.onelink.me/14WJ/3coxhube" target="_blank"
+    onclick="trackClick('xanh')">
     🟢 Đặt Xanh SM
   </a>
 
-  <a class="btn zalo" href="https://zalo.me/0975456247">
+  <a class="btn zalo" href="https://zalo.me/0975456247"
+    onclick="trackClick('zalo')">
     💬 Chat Zalo đặt món
   </a>
 
-  <a class="btn call" href="tel:0975456247">
+  <a class="btn call" href="tel:0975456247"
+    onclick="trackClick('call')">
     📞 Gọi đặt ngay
   </a>
 
